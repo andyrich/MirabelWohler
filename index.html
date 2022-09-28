@@ -5,22 +5,24 @@
 <body>
 <h1>Mirabel Wohler SWR MODFLOW Model Results</h1>
 <body>
-<pre>These are model runs from the SWR MODFLOW model of 
-the Mirabel Wohler Area. The Model is under development.
-Each Run reflects the incoming stream inflows 
-from Mark West Creek, Dry Creek, and the Russian River.
+<pre>
+	These are model runs from the SWR MODFLOW model of
+	the Mirabel Wohler Area. The Model is under development.
+	Each Run reflects the incoming stream inflows
+	from Mark West Creek, Dry Creek, and the Russian River.
 
-Currently the pumping from the collector wells do not 
-reflect actual pumping at given time of model.They are 
-inputs reused from 2009 model runs.
+	The dam elevations are interpreted from the RDS stage and other data.
+
+	Initial conditions: model run 3 times for 10 days using
+	observed flow/pumping/dam elevation for model periods.
+	Heads are recursively used as initial conditions.
 			
 Other factors that need to be addressed:
-	-Diversions and filling of infiltration ponds
-	-Convert the observed RDS stages to dam elevations. 
-		Currently the influence of stream stages from high 
-		flow events are represented as changes in dam elevation.
-	-Updated initial conditions (possibly re-run model 
-		for ~10 days to establish initial conditions.
+	-Diversions from ponded area. Currently recharged water magically arrives at ponds.
+
+	by: arich
+	date: 9/28/2022
+
 
 </pre>
 </body>
