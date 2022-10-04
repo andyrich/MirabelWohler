@@ -9,7 +9,7 @@ NWT              319 RR.nwt
 WEL              312  RR.wel
 #GHB              317  RR.ghb
 #EVT              324  RR.evt
-OC               322  RR.oc
+OC               322  rr_all.oc
 #PCG              319  RR.pcg
 DATA         	 201  ref\inflow.dat
 SWR				200   RR.SWR
